@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2f68ac482f56d9a04c7a0ce652fc4674 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2f68ac482f56d9a04c7a0ce652fc4674" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2f68ac482f56d9a04c7a0ce652fc4674 = L.map(
+                "map_2f68ac482f56d9a04c7a0ce652fc4674",
+                {
+                    center: [40.452706525, -3.676441625],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 12,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_48d9cea48db2b896b0b66d36a7c7281d = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2f68ac482f56d9a04c7a0ce652fc4674);
+        
+    
+            var marker_c76ad09c3ebe7b1f5220a35c7d97e4a5 = L.marker(
+                [40.430897, -3.707594],
+                {}
+            ).addTo(map_2f68ac482f56d9a04c7a0ce652fc4674);
+        
+    
+            var icon_8ad93ec23a01e5031cbef3f6fe3b1342 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_c76ad09c3ebe7b1f5220a35c7d97e4a5.setIcon(icon_8ad93ec23a01e5031cbef3f6fe3b1342);
+        
+    
+        var popup_7ca04d764c35cc074c74af4598d662bd = L.popup({"maxWidth": 300});
+
+        
+            var html_3db8969e03142bbe3c1a9baea54b4e2c = $(`<div id="html_3db8969e03142bbe3c1a9baea54b4e2c" style="width: 100.0%; height: 100.0%;"><b>Hotell Sercotel Gran Hotel Conde Duque</b><br>Plaza del Conde Valle de Suchil 5, Madrid<br><i>Hotell</i></div>`)[0];
+            popup_7ca04d764c35cc074c74af4598d662bd.setContent(html_3db8969e03142bbe3c1a9baea54b4e2c);
+        
+
+        marker_c76ad09c3ebe7b1f5220a35c7d97e4a5.bindPopup(popup_7ca04d764c35cc074c74af4598d662bd)
+        ;
+
+        
+    
+    
+            marker_c76ad09c3ebe7b1f5220a35c7d97e4a5.bindTooltip(
+                `<div>
+                     Hotell Sercotel Gran Hotel Conde Duque
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_f52cfdd0da5da7f4b115b4c98fd733d1 = L.marker(
+                [40.495227, -3.573373],
+                {}
+            ).addTo(map_2f68ac482f56d9a04c7a0ce652fc4674);
+        
+    
+            var icon_c1de3b53053652095d6c19908e36cd9a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "blue", "prefix": "glyphicon"}
+            );
+            marker_f52cfdd0da5da7f4b115b4c98fd733d1.setIcon(icon_c1de3b53053652095d6c19908e36cd9a);
+        
+    
+        var popup_ce03e5c91f93f92676dbcacc854d625c = L.popup({"maxWidth": 300});
+
+        
+            var html_879d0c19312970ea1ca4a9bfe7c24c2c = $(`<div id="html_879d0c19312970ea1ca4a9bfe7c24c2c" style="width: 100.0%; height: 100.0%;"><b>Madrid Airport – Adolfo Suárez Madrid–Barajas</b><br>Aeropuerto Adolfo Suárez Madrid–Barajas<br><i>Lennujaam</i></div>`)[0];
+            popup_ce03e5c91f93f92676dbcacc854d625c.setContent(html_879d0c19312970ea1ca4a9bfe7c24c2c);
+        
+
+        marker_f52cfdd0da5da7f4b115b4c98fd733d1.bindPopup(popup_ce03e5c91f93f92676dbcacc854d625c)
+        ;
+
+        
+    
+    
+            marker_f52cfdd0da5da7f4b115b4c98fd733d1.bindTooltip(
+                `<div>
+                     Madrid Airport – Adolfo Suárez Madrid–Barajas
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_16c75d1d03d4056986c28aba0828e48b = L.marker(
+                [40.4436, -3.7371],
+                {}
+            ).addTo(map_2f68ac482f56d9a04c7a0ce652fc4674);
+        
+    
+            var icon_8ccb217bb2d58b49bc014d4a5101c40a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "green", "prefix": "glyphicon"}
+            );
+            marker_16c75d1d03d4056986c28aba0828e48b.setIcon(icon_8ccb217bb2d58b49bc014d4a5101c40a);
+        
+    
+        var popup_0d3c0acc6dd343a1088e6a3b613c403a = L.popup({"maxWidth": 300});
+
+        
+            var html_73d81ccf67af8ae95b1cd1a6350f148b = $(`<div id="html_73d81ccf67af8ae95b1cd1a6350f148b" style="width: 100.0%; height: 100.0%;"><b>Kohtumine 4. nov – Complejo de la Moncloa</b><br>Avenida Puerta de Hierro s/n, 28071 Madrid<br><i>Kohtumine 4. nov</i></div>`)[0];
+            popup_0d3c0acc6dd343a1088e6a3b613c403a.setContent(html_73d81ccf67af8ae95b1cd1a6350f148b);
+        
+
+        marker_16c75d1d03d4056986c28aba0828e48b.bindPopup(popup_0d3c0acc6dd343a1088e6a3b613c403a)
+        ;
+
+        
+    
+    
+            marker_16c75d1d03d4056986c28aba0828e48b.bindTooltip(
+                `<div>
+                     Kohtumine 4. nov – Complejo de la Moncloa
+                 </div>`,
+                {"sticky": true}
+            );
+        
+    
+            var marker_bbcce1d7332f68b9ec8497fd363d3183 = L.marker(
+                [40.4411021, -3.6876995],
+                {}
+            ).addTo(map_2f68ac482f56d9a04c7a0ce652fc4674);
+        
+    
+            var icon_15de2ce5ebc4c7533f80da5352d447e4 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "info-sign", "iconColor": "white", "markerColor": "purple", "prefix": "glyphicon"}
+            );
+            marker_bbcce1d7332f68b9ec8497fd363d3183.setIcon(icon_15de2ce5ebc4c7533f80da5352d447e4);
+        
+    
+        var popup_ec19c7e91871106a37192d20343d952e = L.popup({"maxWidth": 300});
+
+        
+            var html_63d505e428a95e5817e0033df0d2fe65 = $(`<div id="html_63d505e428a95e5817e0033df0d2fe65" style="width: 100.0%; height: 100.0%;"><b>Kohtumine 5. nov – CSIC Headquarters</b><br>Calle de Serrano 117, 28006 Madrid<br><i>Kohtumine 5. nov</i></div>`)[0];
+            popup_ec19c7e91871106a37192d20343d952e.setContent(html_63d505e428a95e5817e0033df0d2fe65);
+        
+
+        marker_bbcce1d7332f68b9ec8497fd363d3183.bindPopup(popup_ec19c7e91871106a37192d20343d952e)
+        ;
+
+        
+    
+    
+            marker_bbcce1d7332f68b9ec8497fd363d3183.bindTooltip(
+                `<div>
+                     Kohtumine 5. nov – CSIC Headquarters
+                 </div>`,
+                {"sticky": true}
+            );
+        
+</script>
+</html>
